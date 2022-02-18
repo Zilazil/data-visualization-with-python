@@ -78,7 +78,7 @@ app.layout = html.Div(children=[
                                     style={
                                         'textAlign':'center',
                                         'color':'#503D36',
-                                        'font_size':0
+                                        'font-size':24
                                     }
                                 )
     
@@ -94,7 +94,7 @@ app.layout = html.Div(children=[
                                             ]
                                         ),
                                         # TASK2: Add a dropdown
-                                        dcc.Dropdown(id='input_type',
+                                        dcc.Dropdown(id='input-type',
                                                      options=[
                                                          {'label':'Yearly Airline Performance Report','value':'OPT1'},
                                                          {'label':'Yearly Airline Delay Report','value':'OPT2'}
